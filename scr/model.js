@@ -1,4 +1,4 @@
-import image from './assets/image.png'
+import image from './assets/134.png'
 // const image = require('./assets/134.png')
 import {TitleBlock, TextBlock, ColumnsBlock, ImageBlock} from './classes/blocks'
 

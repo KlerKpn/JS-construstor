@@ -52,6 +52,6 @@ export class ImageBlock extends Block{
 
     toHTML(){
         const {imageStyle ,style, alt=''} = this.options
-        return row(`<img scr="${this.value}" style="${css(imageStyle)}" alt=${alt}>`, css(style))
+        return row(`<img src="${this.value}" style="${css(imageStyle)}" alt=${alt} />`, css(style))
     }
 }

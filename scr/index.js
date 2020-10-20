@@ -1,10 +1,7 @@
 import './styles/index.css'
 import {model} from './model'
-import {Site} from './classes/site'
-import {Sidebar} from './classes/sidebar'
+import {App} from './classes/App'
 
-const site = new Site('#site')
-site.render(model)
 
-const sidebar = new Sidebar('#panel')
-sidebar.render()
+new App(model).init()
+
